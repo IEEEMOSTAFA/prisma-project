@@ -8,3 +8,8 @@ npm install prisma @prisma/client
 npx prisma init
 
 Neon link::   https://console.neon.tech/app/projects/empty-rain-35790630?database=neondb
+
+
+  // "prisma": {
+  //   "seed": "ts-node prisma/seed.ts"
+  // },
