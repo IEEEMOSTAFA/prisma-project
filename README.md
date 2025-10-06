@@ -13,3 +13,14 @@ Neon link::   https://console.neon.tech/app/projects/empty-rain-35790630?databas
   // "prisma": {
   //   "seed": "ts-node prisma/seed.ts"
   // },
+
+  --> if any update on prisma then run this command:
+
+  npx prisma migrate dev
+  then init
+  or click::
+  npx prisma migrate dev --name added-new-fields
+  
+  npx prisma generate
+
+

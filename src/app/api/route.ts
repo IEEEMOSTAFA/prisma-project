@@ -3,7 +3,9 @@ import { NextResponse } from 'next/server';
 import { PrismaClient } from '@prisma/client'; // <-- Correct import
 const prisma = new PrismaClient();
 export async function GET() {
-   const users = await prisma.user.findFirst();
+   const users = await prisma.user.findUnique({
+    where: { id: 2}
+   });
   return NextResponse.json(users);
 }
 
