@@ -22,5 +22,9 @@ Neon link::   https://console.neon.tech/app/projects/empty-rain-35790630?databas
   npx prisma migrate dev --name added-new-fields
   
   npx prisma generate
+---> if any data vaulue on database update use the PUT method command and then run:
+
+"Invoke-RestMethod -Uri http://localhost:3000/api -Method Put"
+alert: this command run on new terminal (click + sign)
 
 
