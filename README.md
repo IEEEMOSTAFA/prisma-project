@@ -27,4 +27,11 @@ Neon link::   https://console.neon.tech/app/projects/empty-rain-35790630?databas
 "Invoke-RestMethod -Uri http://localhost:3000/api -Method Put"
 alert: this command run on new terminal (click + sign)
 
+--> for delete operation : use this command on terminal:
 
+"Invoke-RestMethod -Uri http://localhost:3000/api -Method Delete "
+
+
+// if any new table make in prisma schema then run the command in terminal:
+
+npx prisma migrate dev --name init
